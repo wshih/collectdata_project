@@ -15,7 +15,7 @@ This script assumes the data has been downloaded and the UCI HAR Dataset folder 
 
 A new data set was created as a merge of the "test" and "train" datasets. The subject IDs were incorporated into column 1, and the activities labels (ie: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) were substituted for the activities ID, and incorporated into column 2. 
 
-Seventeen main variable measurements were collected from the accelerometers (see list below), and some of these variables were measured in 3 different axial directions: X, Y, and Z. Therefore, there was a total of 33 main variable measurements.
+Seventeen main variable measurements were collected from the accelerometers (see list below), and some of these variables were measured in 3 different axial directions: X, Y, and Z. Therefore, there were a total of 33 main variable measurements.
 tBodyAcc-X,Y,Z
 tGravityAcc-X,Y,Z
 tBodyAccJerk-X,Y,Z
@@ -34,14 +34,14 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The new dataset includes only the mean and standard deviation measurements for each of these 33 variables which were extracted from the original dataset. Then these variable measurements were averaged for each individual activity and per subject ID. The variable names were updated to be more descriptive and meaningful. This was done by:
+The new dataset includes only the mean and standard deviation measurements for each of these 33 variables, so 66 variables total were extracted from the original dataset. Then these variable measurements were averaged for each individual activity and per subject ID. The variable names were updated to be more descriptive and meaningful. This was done by:
 1) removing the parenthesis 
 2) removing duplicates of "Body" from the label 
 3) changing "Acc" to "Accelerometer"
 4) changing "Mag" to "Magnitude"
 5) changing "Gyro" to "Gyroscope"
 
-The names can be found in the codebook. 
+The names and descriptions can be found in the codebook. 
 
 Output
 The script outputs a .txt file containing the table of the new dataset. 
