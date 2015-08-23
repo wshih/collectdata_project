@@ -1,0 +1,75 @@
+---
+title: "run_analysis.R Codebook"
+
+---
+Column Index - Column Index of variable from the original Human Activity Recognition Using Smartphones Dataset Version 1.0
+Original variable name - original label name as it appeared in the features_info.txt file as part of the original dataset
+Descriptive variable name - descriptive name of each variable as it appears as the column name in tidy dataset output from run_analysis.R
+
+ Column Index	Original Variable name	Descriptive Variable name	Brief Description
+  1	          tBodyAcc-mean()-X	           tBodyAccelerometer-mean-X	(from Accelerometer) Body acceleration signal in time domain
+  2	          tBodyAcc-mean()-Y	           tBodyAccelerometer-mean-Y	(from Accelerometer) Body acceleration signal in time domain
+  3	          tBodyAcc-mean()-Z	           tBodyAccelerometer-mean-Z	(from Accelerometer) Body acceleration signal in time domain
+  4	           tBodyAcc-std()-X	            tBodyAccelerometer-std-X	(from Accelerometer) Body acceleration signal in time domain
+  5	           tBodyAcc-std()-Y	            tBodyAccelerometer-std-Y	(from Accelerometer) Body acceleration signal in time domain
+  6	           tBodyAcc-std()-Z	            tBodyAccelerometer-std-Z	(from Accelerometer) Body acceleration signal in time domain
+ 41	       tGravityAcc-mean()-X	        tGravityAccelerometer-mean-X	(from Accelerometer) Gravity acceleration signal in time domain 
+ 42	       tGravityAcc-mean()-Y	        tGravityAccelerometer-mean-Y	(from Accelerometer) Gravity acceleration signal in time domain 
+ 43	       tGravityAcc-mean()-Z	        tGravityAccelerometer-mean-Z	(from Accelerometer) Gravity acceleration signal in time domain 
+ 44	        tGravityAcc-std()-X	         tGravityAccelerometer-std-X	(from Accelerometer) Gravity acceleration signal in time domain 
+ 45	        tGravityAcc-std()-Y	         tGravityAccelerometer-std-Y	(from Accelerometer) Gravity acceleration signal in time domain 
+ 46	        tGravityAcc-std()-Z	         tGravityAccelerometer-std-Z	(from Accelerometer) Gravity acceleration signal in time domain 
+ 81	      tBodyAccJerk-mean()-X	       tBodyAccelerometerJerk-mean-X	(from Accelerometer) Body acceleration jerk signal in time domain
+ 82	      tBodyAccJerk-mean()-Y	       tBodyAccelerometerJerk-mean-Y	(from Accelerometer) Body acceleration jerk signal in time domain
+ 83	      tBodyAccJerk-mean()-Z	       tBodyAccelerometerJerk-mean-Z	(from Accelerometer) Body acceleration jerk signal in time domain
+ 84	       tBodyAccJerk-std()-X	        tBodyAccelerometerJerk-std-X	(from Accelerometer) Body acceleration jerk signal in time domain
+ 85	       tBodyAccJerk-std()-Y	        tBodyAccelerometerJerk-std-Y	(from Accelerometer) Body acceleration jerk signal in time domain
+ 86	       tBodyAccJerk-std()-Z	        tBodyAccelerometerJerk-std-Z	(from Accelerometer) Body acceleration jerk signal in time domain
+121	         tBodyGyro-mean()-X	               tBodyGyroscope-mean-X	(from Gyroscope) Body acceleration signal in time domain
+122	         tBodyGyro-mean()-Y	               tBodyGyroscope-mean-Y	(from Gyroscope) Body acceleration signal in time domain
+123	         tBodyGyro-mean()-Z	               tBodyGyroscope-mean-Z	(from Gyroscope) Body acceleration signal in time domain
+124	          tBodyGyro-std()-X	                tBodyGyroscope-std-X	(from Gyroscope) Body acceleration signal in time domain
+125	          tBodyGyro-std()-Y	                tBodyGyroscope-std-Y	(from Gyroscope) Body acceleration signal in time domain
+126	          tBodyGyro-std()-Z	                tBodyGyroscope-std-Z	(from Gyroscope) Body acceleration signal in time domain
+161	     tBodyGyroJerk-mean()-X	           tBodyGyroscopeJerk-mean-X	(from Gyroscope) Body acceleration jerk signal in time domain
+162	     tBodyGyroJerk-mean()-Y	           tBodyGyroscopeJerk-mean-Y	(from Gyroscope) Body acceleration jerk signal in time domain
+163	     tBodyGyroJerk-mean()-Z	           tBodyGyroscopeJerk-mean-Z	(from Gyroscope) Body acceleration jerk signal in time domain
+164	      tBodyGyroJerk-std()-X	            tBodyGyroscopeJerk-std-X	(from Gyroscope) Body acceleration jerk signal in time domain
+165	      tBodyGyroJerk-std()-Y	            tBodyGyroscopeJerk-std-Y	(from Gyroscope) Body acceleration jerk signal in time domain
+166	      tBodyGyroJerk-std()-Z	            tBodyGyroscopeJerk-std-Z	(from Gyroscope) Body acceleration jerk signal in time domain
+201	         tBodyAccMag-mean()	    tBodyAccelerometerMagnitude-mean	(from Accelerometer) Body acceleration magnitude signal in time domain
+202	          tBodyAccMag-std()	     tBodyAccelerometerMagnitude-std	(from Accelerometer) Body acceleration magnitude signal in time domain
+214	      tGravityAccMag-mean()	 tGravityAccelerometerMagnitude-mean	(from Accelerometer) Gravity acceleration magnitude signal in time domain
+215	       tGravityAccMag-std()	  tGravityAccelerometerMagnitude-std	(from Accelerometer) Gravity acceleration magnitude signal in time domain
+227	     tBodyAccJerkMag-mean()	tBodyAccelerometerJerkMagnitude-mean	(from Accelerometer) Body acceleration jerk magnitude signal in time domain
+228	      tBodyAccJerkMag-std()	 tBodyAccelerometerJerkMagnitude-std	(from Accelerometer) Body acceleration jerk magnitude signal in time domain
+240	        tBodyGyroMag-mean()	        tBodyGyroscopeMagnitude-mean	(from Gyroscope) Body acceleration magnitude signal in time domain
+241	         tBodyGyroMag-std()	         tBodyGyroscopeMagnitude-std	(from Gyroscope) Body acceleration magnitude signal in time domain
+253	    tBodyGyroJerkMag-mean()	    tBodyGyroscopeJerkMagnitude-mean	(from Gyroscope) Body acceleration jerk magnitude signal in time domain
+254	     tBodyGyroJerkMag-std()	     tBodyGyroscopeJerkMagnitude-std	(from Gyroscope) Body acceleration jerk magnitude signal in time domain
+266	          fBodyAcc-mean()-X	           fBodyAccelerometer-mean-X	(from Accelerometer) Body acceleration signal in frequency domain
+267	          fBodyAcc-mean()-Y	           fBodyAccelerometer-mean-Y	(from Accelerometer) Body acceleration signal in frequency domain
+268	          fBodyAcc-mean()-Z	           fBodyAccelerometer-mean-Z	(from Accelerometer) Body acceleration signal in frequency domain
+269	           fBodyAcc-std()-X	            fBodyAccelerometer-std-X	(from Accelerometer) Body acceleration signal in frequency domain
+270	           fBodyAcc-std()-Y	            fBodyAccelerometer-std-Y	(from Accelerometer) Body acceleration signal in frequency domain
+271	           fBodyAcc-std()-Z	            fBodyAccelerometer-std-Z	(from Accelerometer) Body acceleration signal in frequency domain
+345	      fBodyAccJerk-mean()-X	       fBodyAccelerometerJerk-mean-X	(from Accelerometer) Body acceleration jerk signal in frequency domain
+346	      fBodyAccJerk-mean()-Y	       fBodyAccelerometerJerk-mean-Y	(from Accelerometer) Body acceleration jerk signal in frequency domain
+347	      fBodyAccJerk-mean()-Z	       fBodyAccelerometerJerk-mean-Z	(from Accelerometer) Body acceleration jerk signal in frequency domain
+348	       fBodyAccJerk-std()-X	        fBodyAccelerometerJerk-std-X	(from Accelerometer) Body acceleration jerk signal in frequency domain
+349	       fBodyAccJerk-std()-Y	        fBodyAccelerometerJerk-std-Y	(from Accelerometer) Body acceleration jerk signal in frequency domain
+350	       fBodyAccJerk-std()-Z	        fBodyAccelerometerJerk-std-Z	(from Accelerometer) Body acceleration jerk signal in frequency domain
+424	         fBodyGyro-mean()-X	               fBodyGyroscope-mean-X	(from Gyroscope) Body acceleration jerk signal in frequency domain
+425	         fBodyGyro-mean()-Y	               fBodyGyroscope-mean-Y	(from Gyroscope) Body acceleration jerk signal in frequency domain
+426	         fBodyGyro-mean()-Z	               fBodyGyroscope-mean-Z	(from Gyroscope) Body acceleration jerk signal in frequency domain
+427	          fBodyGyro-std()-X	                fBodyGyroscope-std-X	(from Gyroscope) Body acceleration jerk signal in frequency domain
+428	          fBodyGyro-std()-Y	                fBodyGyroscope-std-Y	(from Gyroscope) Body acceleration jerk signal in frequency domain
+429	          fBodyGyro-std()-Z	                fBodyGyroscope-std-Z	(from Gyroscope) Body acceleration jerk signal in frequency domain
+503	         fBodyAccMag-mean()	    fBodyAccelerometerMagnitude-mean	(from Accelerometer) Body acceleration magnitude signal in frequency domain
+504	          fBodyAccMag-std()	     fBodyAccelerometerMagnitude-std	(from Accelerometer) Body acceleration magnitude signal in frequency domain
+516	 fBodyBodyAccJerkMag-mean()	fBodyAccelerometerJerkMagnitude-mean	(from Accelerometer) Body acceleration jerk magnitude signal in frequency domain
+517	  fBodyBodyAccJerkMag-std()	 fBodyAccelerometerJerkMagnitude-std	(from Accelerometer) Body acceleration jerk magnitude signal in frequency domain
+529	    fBodyBodyGyroMag-mean()	        fBodyGyroscopeMagnitude-mean	(from Gyroscope) Body acceleration magnitude signal in frequency domain
+530	     fBodyBodyGyroMag-std()	         fBodyGyroscopeMagnitude-std	(from Gyroscope) Body acceleration magnitude signal in frequency domain
+542	fBodyBodyGyroJerkMag-mean()	    fBodyGyroscopeJerkMagnitude-mean	(from Gyroscope) Body acceleration jerk magnitude signal in frequency domain
+543	 fBodyBodyGyroJerkMag-std()	     fBodyGyroscopeJerkMagnitude-std	(from Gyroscope) Body acceleration jerk magnitude signal in frequency domain
